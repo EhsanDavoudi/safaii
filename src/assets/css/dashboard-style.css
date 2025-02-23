@@ -1,0 +1,31 @@
+.error {
+    color: red;
+    display: none;
+}
+.percentage {
+    /*text-align: center;*/
+    margin-top: 5px;
+    font-weight: bold;
+}
+.form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1;
+}
+
+.profile-container h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.custom-fields-container {
+    margin-bottom: 10rem; /* افزایش فاصله از پایین */
+}

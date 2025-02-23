@@ -1,0 +1,81 @@
+body {
+    color: #333;
+    margin: 0;
+}
+.crypto-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.crypto-header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-custom {
+    border-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-style: none !important;
+}
+
+.card-custom h2, .card-custom h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #34495e;
+}
+.highlight-positive {
+    color: #27ae60;
+    font-weight: bold;
+}
+.highlight-negative {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.table-custom {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.table-custom th, .table-custom td {
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+}
+.table-custom th {
+    background-color: #f8f9fa;
+    color: #555;
+}
+.table-custom tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.about-section {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.about-section h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+.about-section ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+.about-section li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+.about-section strong {
+    color: #2980b9;
+}

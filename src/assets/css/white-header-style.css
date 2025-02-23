@@ -1,0 +1,51 @@
+.navbar-nav .dropdown-menu {
+    right: 0;
+    left: auto;
+    width: auto; /* Adjusted width to auto to fit content */
+}
+
+/* Adjust padding for the dropdown items */
+.dropdown-item {
+    padding: 0.5rem 1rem;
+    text-align: right;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Ensure the dropdown menu is wide enough to fit the content */
+.navbar .dropdown-menu {
+    min-width: 200px; /* Set a minimum width to ensure it is not too narrow */
+}
+
+.navbar .dropdown-menu li a {
+    color: #1c456d;
+    font-size: 15px;
+}
+
+/* Optional: Adjust the hover color for dropdown items */
+.navbar .dropdown-menu li a:hover {
+    color: #FFA500;
+}
+
+.navbar ul li a:hover,
+.small-price-table a,
+.small-price-table a:hover {
+    color: #FFA500;
+}
+
+.hero-section button,
+header .btn {
+    /* margin-top: 20px; */
+    border-radius: 30px;
+    background-color: #FFA500;
+    height: 50px;
+    width: 170px;
+}
+
+.hero-section button:hover,
+header .btn:hover {
+    border: 1px solid #FFA500;
+    background: #2B547E;
+}

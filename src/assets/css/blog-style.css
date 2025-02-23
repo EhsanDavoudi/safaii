@@ -1,0 +1,50 @@
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background: linear-gradient(45deg, #3949ab, #5c6bc0);
+    color: white;
+    font-weight: bold;
+    border-bottom: none;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.positive {
+    color: #4caf50;
+}
+
+.negative {
+    color: #f44336;
+}
+
+.neutral {
+    color: #ff9800;
+}
+
+.analysis-icon {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+/*@keyframes pulse {*/
+/*    0% { transform: scale(1); }*/
+/*    50% { transform: scale(1.05); }*/
+/*    100% { transform: scale(1); }*/
+/*}*/
+
+/*.pulse {*/
+/*    animation: pulse 2s infinite;*/
+/*}*/
